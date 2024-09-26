@@ -13,14 +13,13 @@ public class W3_86 {
         do {
             if (n % 2 == 0) {
                 n /= 2;
-                System.out.println(n);
             } else {
                 n = (n*3) +1;
-                System.out.println(n);
             }
+            System.out.println(n);
         } while (n != 1);
 
-        System.out.println("Ahora es: " + n);
+        System.out.println("Fin del bucle");
 
         sc.close();
     }
