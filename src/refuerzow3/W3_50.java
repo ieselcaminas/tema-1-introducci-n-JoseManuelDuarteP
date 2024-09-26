@@ -1,6 +1,5 @@
 package refuerzow3;
 
-import java.util.Scanner;
 public class W3_50 {
     public static void main(String[] args) {
         String res3 = "";
