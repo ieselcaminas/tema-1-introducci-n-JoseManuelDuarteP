@@ -13,8 +13,8 @@ public class Ejercicio35 {
 
         do {
             num = num - num2;
-            System.out.println(num);
-        } while (num > num2);
+        } while (num >= num2);
+        System.out.println("El resto es: " + num);
 
         sc.close();
     }
