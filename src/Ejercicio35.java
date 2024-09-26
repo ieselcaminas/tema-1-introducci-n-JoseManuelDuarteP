@@ -12,7 +12,7 @@ public class Ejercicio35 {
         num2 = sc.nextInt();
 
         do {
-            num = num / num2;
+            num = num - num2;
             System.out.println(num);
         } while (num > num2);
 
