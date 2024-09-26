@@ -1,18 +1,20 @@
+package introduccion;
+
 import java.util.Scanner;
-public class Ejercicio23 {
+public class Ejercicio22 {
     public static void main(String[] args) {
         int num;
         int positivos = 0;
         Scanner sc = new Scanner(System.in);
 
-        do {
+        for(int i = 0 ; i < 10 ; i++) {
             System.out.println("Ingrese un numero: ");
             num = sc.nextInt();
 
             if (num > 0) {
                 ++positivos;
             }
-        } while (num != 0);
+        }
 
         System.out.println("Positivos: " + positivos);
 
