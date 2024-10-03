@@ -1,3 +1,5 @@
+package Trastos;
+
 import java.util.Scanner;
 
 public class Calc_Dec_Bin {
