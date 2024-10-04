@@ -10,7 +10,7 @@ public class R1_20 {
         System.out.print("Hojas: ");
         hojas = sc.nextInt();
 
-        if (hojas <= 3) {
+        if (hojas < 3) {
             System.out.println("IMPOSIBLE");
         } else {
             System.out.println("Hay " + (hojas / 4) + " posible con 4");
