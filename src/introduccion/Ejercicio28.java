@@ -5,28 +5,30 @@ import java.util.Scanner;
 public class Ejercicio28 {
     public static void main(String[] args) {
         int num;
+        boolean primo = true;
         Scanner sc = new Scanner(System.in);
 
         System.out.print("Ingrese un numero: ");
         num = sc.nextInt();
 
-        if (num % 2 != 0 || num == 2) {
+        if (num == 2) {
+            primo = true;
+        }else {
+            for (int i = 2; i < num; i++) {
 
-            for (int i = 1; i <= num; i++) {
-
-                if (i % 2 != 0 && num / i == 0) {
-                    System.out.println("El número no es primo");
+                if (num % i == 0) {
+                    primo = false;
                     break;
-                } else if (i % 2 != 0 && num / i == 1) {
-                    System.out.println("El número es primo");
                 }
 
             }
-
+        }
+        if (primo) {
+            System.out.println(num + " es primo");
         } else {
-            System.out.print("El numero no es primo");
+            System.out.println(num + " no es primo");
         }
 
         sc.close();
     }
-}      //FALTA EXPLICAR COSAS
+}
