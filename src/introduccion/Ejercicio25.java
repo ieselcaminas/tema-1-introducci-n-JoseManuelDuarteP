@@ -10,7 +10,7 @@ public class Ejercicio25 {
         System.out.print("Ingrese un numero: ");
         num = sc.nextInt();
 
-        for (int i = 1; i <= num; i++) {
+        for (int i = 2; i <= num; i++) {
             factorial = factorial * i;
         }
         System.out.println("El factorial del numero " + num + " es " + factorial);
