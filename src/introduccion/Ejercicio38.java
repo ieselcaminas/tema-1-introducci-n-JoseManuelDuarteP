@@ -16,7 +16,10 @@ public class Ejercicio38 {
             System.out.println("Ingrese un numero: ");
             numUsuario = sc.nextInt();
 
-            if (numUsuario == -1) break;
+            if (numUsuario == -1) {
+                System.out.println("Te rendiste");
+                break;
+            }
 
             if (numUsuario == secreto) {
 
@@ -34,10 +37,6 @@ public class Ejercicio38 {
             }
 
         } while (true);
-
-        if (numUsuario == -1) {
-            System.out.println("Te rendiste");
-        }
 
         sc.close();
     }
