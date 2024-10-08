@@ -15,6 +15,7 @@ public class Ejercicio30 {
         int numLetras = palabrasSinEspacios.length();
 
         for (int i = 0; i < (numLetras/2); i++) {
+
             if (palabrasSinEspacios.charAt(i) != palabrasSinEspacios.charAt(numLetras-i-1)) {
 
                 check = false;
@@ -23,6 +24,7 @@ public class Ejercicio30 {
             }
 
         }
+
         if (check) {
             System.out.println("Es palíndromo");
         } else {
