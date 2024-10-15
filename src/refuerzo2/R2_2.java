@@ -16,7 +16,7 @@ public class R2_2 {
         mes = sc.nextInt();
 
         for (int i = mes + 1; i <= 12; i++) {
-            switch (mes) {
+            switch (i) {
                 case 1:
                 case 3:
                 case 5:
