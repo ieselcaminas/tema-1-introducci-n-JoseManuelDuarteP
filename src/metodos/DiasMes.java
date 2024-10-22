@@ -28,7 +28,11 @@ public class DiasMes {
     public static void main(String[] argv) {
         int mes = Utilidades.leerEntero("Introduzca el mes: ");
 
-        System.out.println("El mes tiene: " + diasMes(mes));
+        if (diasMes(mes) == -1) {
+            System.out.println("El mes de no existe");
+        } else {
+            System.out.println("El mes tiene: " + diasMes(mes));
+        }
 
     }
 }
