@@ -14,8 +14,13 @@ public class DiasMes {
                 return 31;
             case 2:
                 return 28;
-            default:
+            case 4:
+            case 6:
+            case 9:
+            case 11:
                 return 30;
+            default:
+                return -1;
         }
 
     }
