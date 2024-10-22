@@ -9,8 +9,8 @@ public class PrecioRebaja {
     }
 
     public static void main(String[] argv) {
-        double precio = Utilidades.leerEntero("Introduzca el precio: ");
-        double precioR = Utilidades.leerEntero("Introduzca el precio con descuento: ");
+        double precio = Utilidades.leerDoble("Introduzca el precio: ");
+        double precioR = Utilidades.leerDoble("Introduzca el precio con descuento: ");
 
         System.out.println("El duescuento es de: " + descuento(precio, precioR) + "%");
 
