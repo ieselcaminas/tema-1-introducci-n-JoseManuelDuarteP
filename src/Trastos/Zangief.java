@@ -14,7 +14,6 @@ public class Zangief {
         String[] accionZangief = {"Command grab", "Piño", "Cubrirse",};
         Random r = new Random();
         int randomNumber = r.nextInt(accionZangief.length);
-        System.out.println(accionZangief[randomNumber]);
 
         do {
 
