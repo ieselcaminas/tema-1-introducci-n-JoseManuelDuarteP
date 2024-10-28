@@ -13,10 +13,11 @@ public class Zangief {
 
         String[] accionZangief = {"Command grab", "Piño", "Cubrirse",};
         Random r = new Random();
-        int randomNumber = r.nextInt(accionZangief.length);
+        int randomNumber;
 
         do {
 
+            randomNumber = r.nextInt(accionZangief.length);
             System.out.println("Zangief te acorrala en la esquina.\nZangief está enfadado.\n¿Que haces?\nOpciones;(DP / putiaso / cubrirse)");
             accion = sc.nextLine();
 
