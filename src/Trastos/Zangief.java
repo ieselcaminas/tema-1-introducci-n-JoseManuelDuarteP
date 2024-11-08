@@ -80,7 +80,7 @@ public class Zangief {
 
         if (vidas == 0) {
             System.out.println("Has perdido, espabila");
-        } else if (vidas2 == 0) {
+        } else {
             System.out.println("Has ganado. GG supongo...");
         }
 
