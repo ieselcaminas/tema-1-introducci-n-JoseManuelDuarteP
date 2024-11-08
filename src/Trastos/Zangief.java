@@ -11,7 +11,7 @@ public class Zangief {
         int vidas2 = 3;
         Scanner sc = new Scanner(System.in);
 
-        String[] accionZangief = {"Command grab", "Piño", "Cubrirse",};
+        String[] accionZangief = {"Command grab", "Piño", "Cubrirse"};
         Random r = new Random();
         int randomNumber;
 
